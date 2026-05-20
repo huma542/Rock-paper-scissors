@@ -3,10 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock-Paper-Scissors</title>
+    <title>Rock Paper Scissors</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+       .btn { font-size: 18px; padding: 10px 20px; margin: 5px; cursor: pointer; }
+       .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        #result { font-weight: bold; font-size: 20px; margin: 15px 0; min-height: 24px; }
+       .choices { margin: 15px 0; }
+    </style>
 </head>
 <body>
+    <h1>Rock Paper Scissors</h1>
+    <p>First to 5 wins!</p>
+
+    <div class="game">
+        <button class="btn" data-choice="rock">✊ Rock</button>
+        <button class="btn" data-choice="paper">✋ Paper</button>
+        <button class="btn" data-choice="scissors">✌️ Scissors</button>
+
+        <div class="choices">
+            <p>Your choice: <span id="your-choice">-</span></p>
+            <p>Computer choice: <span id="computer-choice">-</span></p>
+        </div>
+
+        <p id="result"></p>
+
+        <p>Score: You <span id="player-score">0</span> - Computer <span id="computer-score">0</span></p>
+
+        <button id="play-again">Play Again</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
-
