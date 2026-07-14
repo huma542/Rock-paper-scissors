@@ -23,4 +23,6 @@ https://huma542.github.io/Rock-paper-scissors/
 
 No build step or npm install needed.
 
-### ** click here huma542.github.io/Rock-paper-scissors**
+
+
+
