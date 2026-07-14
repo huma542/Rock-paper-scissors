@@ -6,7 +6,7 @@ A simple browser-based Rock Paper Scissors game. First player to reach 5 points 
 Built with vanilla HTML, CSS, and JavaScript. No frameworks, no dependencies.
 
 ### **Demo**
-Open `index.html` in any browser to play.
+https://huma542.github.io/Rock-paper-scissors/
 
 ### **Features**
 - Play against computer with random choice logic
