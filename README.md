@@ -23,4 +23,4 @@ Open `index.html` in any browser to play.
 
 No build step or npm install needed.
 
-### **Project Structure**
+### ** click here huma542.github.io/Rock-paper-scissors**
